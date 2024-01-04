@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Day1 {
     public static void main(String[] args) throws IOException {
-        try (BufferedReader reader = new BufferedReader(new FileReader("resources/day1.in"))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader("Y2023/resources/day1.in"))) {
             String line;
             int res = 0;
             while ((line = reader.readLine()) != null) {
