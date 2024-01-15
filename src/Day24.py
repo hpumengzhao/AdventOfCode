@@ -86,8 +86,8 @@ def solveTask2(px, py, pz, vx, vy, vz):
     cy = Int('cy')
     cz = Int('cz')
     vx_var = Int('vx_var')  
-    vy_var = Int('vy_var')  # Renamed to avoid conflict with argument
-    vz_var = Int('vz_var')  # Renamed to avoid conflict with argument
+    vy_var = Int('vy_var')  
+    vz_var = Int('vz_var') 
 
     s = Solver()
     n = len(px)
